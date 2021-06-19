@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--NavBar Section-->
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="forums.html">Forums</a></li>
+                    <li class="nav-item"><a href="posts.html">Posts</a></li>
+                    <li class="nav-item"><a href="detail.html">Detail</a></li>
+                </ul>
+            </nav>
+            <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+            <div class="brand">EntrePortal Forum</div>
+        </div>
+        <!--SearchBox Section-->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="Everything">All</option>
+                    <option value="Titles">Subforum</option>
+                    <option value="Descriptions">Topic</option>
+                    <option value="Descriptions">Author</option>
+                </select>
+                <input type="text" name="q" placeholder="search ...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>Economy</h1>
+            </div>
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                   <img src="../Free-Forum-Template-main/asset/money-coin-icon-with-outline-style-vector-21947178-removebg-preview.png" width="50px"  height="50px"> 
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="../Free-Forum-Template-main/posts.html"style="color:#A4CECE;">Crypto</a></h4>
+                    <p>Description Content: Pembahasan tentang crypto (coin-coinan)</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 12 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b>Last post</b> by Alone Musk 
+                    <br>on <small>June 15 2021</small>
+                </div>
+            </div>
+        </div>
+        <!--More-->
+        
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>Business</h1>
+            </div>
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <img src="../Free-Forum-Template-main/asset/food-icon-design-template-260nw-1042503748-removebg-preview.png" width="50px"  height="50px"> 
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#"style="color:#A4CECE;">Food n Beverage</a></h4>
+                    <p>Description Content: Bisnis FnB apakah semudah itu?</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>5 Posts | 7 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b>Last post</b> by Cep Juna</a> 
+                    <br>on <small>12 April 2021</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <img src="../Free-Forum-Template-main/asset/337564-200-removebg-preview.png" width="50px"  height="50px"> 
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#"style="color:#A4CECE;">Fashion</a></h4>
+                    <p>Description Content: Perkembangan Bisnis Fashion di Masa Pandemi</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>8 Posts | 14 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b>Last post</b> by Tamara Dai</a> 
+                    <br>on <small>10 April 2021</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <img src="../Free-Forum-Template-main/asset/69-693564_technlogy-proprietary-technology-icon-hd-png-download-removebg-preview.png" width="50px"  height="50px"> 
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#"style="color:#A4CECE;">Technology</a></h4>
+                    <p>Description Content: Peningkatan Penjualan Gadget dan Barang Technology</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>10 Posts | 20 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b>Last post</b> by David GadgetIn</a> 
+                    <br>on <small>8 Maret 2021</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <img src="../Free-Forum-Template-main/asset/download-removebg-preview.png" width="50px"  height="50px"> 
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#"style="color:#A4CECE;">Automotive</a></h4>
+                    <p>Description Content: Penjualan Otomotif Berkembang Pesat</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>4 Posts | 9 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b>Last post</b> by Rudy Salim</a> 
+                    <br>on <small>1 Maret 2021</small>
+                </div>
+            </div>
+
+           
+        </div>
+        <!---->
+    </div>
+
+    <!-- Forum Info -->
+    <div class="forum-info">
+        <div class="chart">
+            MyForum - Stats &nbsp;<i class="fa fa-bar-chart"></i>
+        </div>
+        <span><u>5,369</u> Posts in <u>48</u> Topics by <u>8,124</u> Members.</span><br>
+        <span>Latest post: <b><a href="../Free-Forum-Template-main/detail.html"style="color:white;">Bitcoin</a></b> on Dec 15 2021 By <b>Alone Musk</b></span>.<br>
+        <span>Check <a href="../Free-Forum-Template-main/detail.html"style="color:white;">the latest posts</a> .</span><br>
+    </div>
+
+    <footer>
+        <span>&copy;  EntrePortal Media</span>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
